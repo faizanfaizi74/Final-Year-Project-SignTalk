@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@drawable/ic_design_copy22">
+
+    <Button
+        android:id="@+id/btnCapture"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white"
+        android:onClick="captureVideo"
+        android:text="Record Video"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/selectVideo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:text="Select Video"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="332dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:srcCompat="@android:drawable/ic_media_play">
+
+    </VideoView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Video Selected."
+        android:id="@+id/vidName"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:text="Predict Sign"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pred_class"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/t2s"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:text="Text to Speech"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+</LinearLayout>

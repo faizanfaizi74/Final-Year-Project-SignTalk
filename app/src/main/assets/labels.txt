@@ -1,0 +1,5 @@
+call_the_ambulance
+i_am_a_student
+i_can_not_speak
+how_are_you
+i_don't_understand
