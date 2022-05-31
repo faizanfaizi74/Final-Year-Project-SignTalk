@@ -1,0 +1,6 @@
+flask
+werkzeug
+numpy
+gunicorn
+tensorflow
+opencv-python

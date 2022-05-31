@@ -1,0 +1,13 @@
+authtoken: 29Eks1H9FGKGuVHcRRLfjqEhePM_6GPAjg1QkBKqAaPrvBUo6
+version: 1
+region: jp
+root_cas: trusted
+tunnels:
+  myapp-http:
+    proto: http
+    addr: 5000
+
+# ngrok start --config=./ngrok.yml --all
+#     region: au
+# authtoken: oij3oijoifjo3i4joijfowijf3o4f8uwfojw
+# https://bf8a-119-160-59-251.ap.ngrok.io
